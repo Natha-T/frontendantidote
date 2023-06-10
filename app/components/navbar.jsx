@@ -120,13 +120,7 @@ export default function Navbar({ venomConnect }) {
   return (
     <div className="flex  py-2 w-full bg-slate-500  justify-around items-center">
       <div className="flex items-center gap-2">
-        <Image
-          src={logos}
-          alt="logo"
-          width={20}
-          height={20}
-          className="w-20 h-20"
-        />{" "}
+        LOGO{" "}
         <h1 className="font-mono font-bold text-4xl text-white">Antidote</h1>
       </div>
       <nav className="space-x-10 flex items-center  text-white text-xl font-mono font-medium">
