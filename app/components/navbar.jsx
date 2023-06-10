@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Address, ProviderRpcClient } from "everscale-inpage-provider";
 import { EverscaleStandaloneClient } from "everscale-standalone-client";
-import logos from "./logos.jpg";
+
 import Image from "next/image";
 export default function Navbar({ venomConnect }) {
   const [venomProvider, setVenomProvider] = useState();
